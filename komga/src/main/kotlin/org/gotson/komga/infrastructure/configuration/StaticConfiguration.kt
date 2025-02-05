@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration
 @Configuration
 class StaticConfiguration {
   @Bean("thumbnailType")
-  fun thumbnailType() = ImageType.JPEG
+  fun thumbnailType() = ImageType.PNG
 
   @Bean("pdfImageType")
-  fun pdfImageType() = ImageType.JPEG
+  fun pdfImageType() = ImageType.PNG
 
   @Bean("pdfResolution")
   fun pdfResolution(): Float = 3200F
